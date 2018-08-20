@@ -1,0 +1,59 @@
+** Version 1.1.17 **
+- Fix: Bug with rising price
+
+** Version 1.1.16 **
+- Add: WooCommerce_drop_prices_price_end hook when price changes end
+- Fix: Validation fix
+- Add: Option to reset counter and price on product order
+- Add: Option to change price in percentage
+
+** Version 1.1.15 **
+- Fix: Compatibility if other theme or plugin has same countdown script
+- Fix: Problem with rise price when endprice is not set
+
+** Version 1.1.14 **
+- Fix: Compatibility with WooComerce >= 3.0.0
+
+** Version 1.1.13 **
+- Fix: Clearing product cache for WP Super Cache and W3 Total Cache
+
+** Version 1.1.12 **
+- Fix: Clearing cache for variable products
+
+** Version 1.1.11 **
+- Fix: Displaying counter before scheduled date
+- Fix: Change next drop/rise price time when updating start time or time for price changes
+
+** Version 1.1.10 **
+- Fix: Display of datetime picker fields
+- Fix: Turning off counter bug
+
+** Version 1.1.9 **
+- Fix: Fatal error: Call to a member function is_purchasable() on a non-object on line 554
+
+** Version 1.1.8 **
+- Fix: Out of stock product now not included in drop price.
+
+** Version 1.1.6 **
+- Add: hooks: WooCommerce_drop_prices_price_drop, WooCommerce_drop_prices_price_rise, WooCommerce_drop_prices_price_change
+
+** Version 1.1.5 **
+- Fix: Counter Javascript bug
+
+** Version 1.1.4 **
+- Fix: Problem activating on a multi-site installation of WordPress
+
+** Version 1.1.3 **
+- Fix: Problem with loading languages files
+
+** Version 1.1.2 **
+- Add: Variable product compatibility
+
+** Version 1.1.1 **
+- Fix: headers already sent fix
+
+** Version 1.1.0 **
+- Add: choose between raise or drop price over time functionality
+
+** Version 1.0.0 **
+- Initial release
